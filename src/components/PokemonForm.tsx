@@ -11,8 +11,19 @@ const PokemonForm = ({
 }) => {
   const [pokemon, setPokemon] = useState("");
 
+
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
+    if(pokemon !== ''){
+      // Estara cargando por que hará una petición a la API
+      setError(true)
+      setLoading(true)
+      const pokemonID = window.isNaN(parseInt(pokemon)) ? pokemon.toLowerCase() : pokemon
+      setPokemonId(pokemonID);
+      setPokemon('')
+      return
+    }
+    setError(true) //Si manda el formulario vacío, hay un error
   };
 
   return (

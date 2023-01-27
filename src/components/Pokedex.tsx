@@ -56,7 +56,11 @@ function Pokedex(){
             <div className="light is-green is-large" />
             <div className="light is-orange is-large" />
           </div>
-          <PokemonForm />
+          <PokemonForm 
+          setPokemonId={setPokemonId}
+          setLoading={setLoading}
+          setError={setError}
+          />
         </div>
       </div>
       <div className="pokedex-right-front" />
