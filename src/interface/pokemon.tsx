@@ -8,6 +8,7 @@ export interface ItemStat{
 
 
   export interface PokemonType {
+    id: number,
     name: string;
     sprites: {
       back_default: string;

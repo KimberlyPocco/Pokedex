@@ -1,7 +1,7 @@
 import React from "react";
 import ErrorPokemon from "../img/error.gif";
 import LoadingPokemon from "../img/carga.gif";
-import { PokemonType } from "../interface/pokemon";
+import { PokemonType } from "../interface/Pokemon";
 import Stat from "./Stat";
 
 import "../styles/pokedex.css";
