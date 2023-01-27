@@ -72,10 +72,3 @@ function Pokedex(){
 
 export default Pokedex;
 
-//////////////////
-
-const Pokedex = () => {
-  // ...
-  const [pokemon, setPokemon] = useState<PokemonType| null>(null);
-  // return( ...
-}
