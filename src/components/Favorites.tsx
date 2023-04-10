@@ -35,9 +35,7 @@ const Favorites = () => {
   // Si ya pasamos la validación del error...
   return (
     <div>
-      <h1>
-        Mi Pokedex
-      </h1>
+     
       <h1 className="h1-fav">Mis favoritos</h1>
       <nav>
         <ul className="ul-fav">
