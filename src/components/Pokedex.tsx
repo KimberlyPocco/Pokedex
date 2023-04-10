@@ -5,7 +5,7 @@ import { supabase } from "../supabaseClient";
 import PokedexScreen from './PokedexScreen';
 import PokemonForm from './PokemonForm';
 import '../styles/pokedex.css';
-import { PokemonType } from "../interface/Pokemon";
+import { PokemonType } from "../interface/pokemon";
 
 // Creamos un número aleatorio entre el 1 y el 807
 const RandomId = Math.floor(Math.random() * 806 + 1)

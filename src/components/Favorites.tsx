@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
 import "../styles/favorite.css";
-import { PokemonType } from "../interface/Pokemon";
+import { PokemonType } from "../interface/pokemon";
 import { Link } from "react-router-dom";
 
 interface Pokemon {
@@ -35,6 +35,9 @@ const Favorites = () => {
   // Si ya pasamos la validación del error...
   return (
     <div>
+      <h1>
+        Mi Pokedex
+      </h1>
       <h1 className="h1-fav">Mis favoritos</h1>
       <nav>
         <ul className="ul-fav">

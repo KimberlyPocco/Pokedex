@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemStat } from '../interface/Pokemon'
+import { ItemStat } from '../interface/pokemon'
 
 const Stat = ({ item }:{ item:ItemStat }) =>{
   return (
